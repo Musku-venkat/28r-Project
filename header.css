@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ubuntu sans;
+    scroll-behavior: smooth; 
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+}
+
+.header{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 200px;
+}
+
+.header-1{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 80px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.header-1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.header-2 i{
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#checkbox{
+    display: none;
+}
+
+.header-2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.container-1{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.container-1>div{
+    color: white;
+    text-align: right;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.container-1 a:hover{
+    color: gray;
+}
+
+#checkbox:checked+.container-1{
+    display: block;
+    top: 100px;
+    transition: 1s ease;
+}
+
+.header-3{
+    /* border: 2px solid; */
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.header-3 i{
+    color: blueviolet;
+}
+
+.header-1 a:hover, .header-2 i:hover{
+    color: orange;
+}
+
+.header-1 a:focus,  .header-2 i:focus{
+    color: blueviolet;
+}

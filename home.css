@@ -1,0 +1,227 @@
+.home{
+    gap: 20px;
+    /* border: 2px solid; */
+    padding: 25px 0px;
+    margin: 40px 200px; 
+}
+
+.home-1{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.item{
+    padding: 20px 0px;
+}
+
+.item>img{
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid; */
+    margin-bottom: 20px;
+}
+
+.sub-item{
+    font-size: 80px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+
+.sub-item-1{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.sub-item-1>a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.button-1{
+    color: white;
+    background-color: blueviolet;
+    padding: 20px 40px;
+    border: none;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.button-2{
+    color: black;
+    background-color: orange;
+    padding: 20px 40px;
+    border: none;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.button-2>a{
+    color: black;
+}
+
+.sub-item-2>img{
+        width: 600px;
+        height: 600px;
+        overflow: hidden;
+        border-radius: 60%;
+        object-fit: cover;
+        animation-name: spin;
+        animation-duration: 2s;
+        animation-delay: 0.1s;
+        animation-timing-function: ease-in-out;
+    }
+
+
+.button-1:hover, .button-2:hover{
+    opacity: 1;
+}
+
+
+.home-2{
+    /* border: 2px solid; */
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+.sub-home-1{
+    /* border: 2px solid; */
+    display: flex;
+    gap: 20px;
+}
+
+.item-2>img, .item-3>img, .item-4>img{
+    width: 100%;
+    /* border: 2px solid; */
+    animation-name: big;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in-out;
+}
+
+.home-3{
+    background-color: orange;
+    /* border: 2px solid; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.sub-home-2{
+    font-size: 40px;
+}
+
+.sub-home-3{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.button-3{
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 20px 40px;
+    opacity: 0.9;
+}
+
+.button-3:hover{
+    opacity: 1;
+}
+
+
+.home-4{
+    /* border: 2px solid; */
+    margin: 20px 200px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.sub-home-4{
+    /* border: 2px solid; */
+    border-radius: 50%;
+}
+
+.sub-home-4>img{
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 60%;
+    object-fit: cover;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in-out;
+}
+
+.sub-home-5{
+    /* border: 2px solid; */
+    padding: 100px 0px;
+}
+
+.item-5{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.item-6{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.item-7{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+@keyframes spin  {
+    0%{
+        transform: rotate(270deg);
+    }   
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+
+@keyframes big {
+    0%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+.sub-item-2, .sub-about-4 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeInRight; 
+    animation-duration: 2s; 
+}
+
+.sub-home-4, .sub-about-1{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeInLeft; 
+    animation-duration: 2s; 
+}

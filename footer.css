@@ -1,0 +1,140 @@
+.footer{
+    background-color: rgb(252, 236, 238);
+    text-align: center;
+    padding: 80px;
+    margin: 40px 0px;
+    /* border: 2px solid; */
+}
+
+
+.footer h2{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 80px;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0px 300px;
+}
+
+.main img{
+    width: 80px;
+    height: 80px;
+    animation-name: big;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in-out;
+}
+
+.main p{
+    font-size: 22px;
+    font-weight: bold;
+} 
+
+.footer-1{
+    text-align: center;
+    margin: 20px 200px;
+    /* border: 2px solid; */
+    padding: 40px 0px;
+}
+
+.footer-1>i{
+    /* border: 2px solid; */
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 45px;
+    border-radius: 60%;
+    margin-top: 20px;
+}
+
+.footer-1>h1{
+    margin-top: 40px;
+}
+
+.main-1{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 400px;
+}
+
+.sub-footer-4>img, .sub-footer-5>img, .sub-footer-6>img, .sub-footer-7>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation-name: big;
+    animation-duration: 1.5s;
+    animation-delay: 0.1s;
+    animation-timing-function: ease-in-out;
+} 
+
+.footer-2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 80px 300px;
+    /* border: 2px solid; */
+}
+
+.sub-footer-8{
+    border: none;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.item-14, .item-15{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    font-size: 20px;
+    min-width: 25%;
+    margin: 20px;
+}
+
+.item-16{
+    grid-column: 1/3;
+}
+
+.item-14>label, .item-15>label{
+    text-align: start;
+}
+
+.item-16>button>input{
+    text-align: center;
+}
+
+.item-14>input, .item-15>input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.sub-footer-8 input::placeholder{
+    color: rgb(224, 220, 220);
+}
+
+.button-6{
+    border: none;
+}
+
+.button-6>input{
+    background-color: orange;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.button-6>input:hover{
+    opacity: 1;
+}
