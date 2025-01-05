@@ -106,6 +106,7 @@
 
     .main-1{
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px;
     }
 
     .footer-2{
@@ -117,7 +118,7 @@
     }
 }
 
-@media  screen and (min-width: 601px) and (max-width : 951px) {
+@media  screen and (min-width: 701px) and (max-width : 951px) {
     .header, .home, .home-4, .about-1, .about-2, .contact-1, .footer-1{
         margin: 40px 60px;
     }
@@ -169,8 +170,9 @@
     }
 
     .sub-home-1{
-        flex-wrap: wrap;
-        padding: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
     }
 
     .sub-home-2{
@@ -250,7 +252,7 @@
     }
 
     .sub-about-3{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .sub-about-4>img{
@@ -271,7 +273,8 @@
     }
 
     .sub-contact-1{
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         padding: 20px;
     }
 
@@ -293,8 +296,9 @@
     }
 
     .main{
-        flex-direction: column;
+        display: grid;
         gap: 40px;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         padding: 0px 20px;
     }
@@ -305,6 +309,7 @@
 
     .main-1{
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px 450px;
     }
 
     .footer-2{
@@ -325,7 +330,7 @@
 
 } 
 
-@media screen and (max-width : 600px){
+@media screen and (max-width : 700px){
     .header, .home, .home-4, .about-1, .about-2, .contact-1, .footer-1{
         margin: 20px 40px;
     }
