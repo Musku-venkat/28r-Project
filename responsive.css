@@ -59,6 +59,14 @@
         height: 400px;
     }
 
+    .home-2>h1{
+        font-size: 50px;
+    }
+
+    .sub-home-3{
+        font-size: 50px;
+    }
+
     .home-4{
         gap: 0px;
         align-items: center;
@@ -67,6 +75,18 @@
     .sub-home-4>img{
         width: 400px;
         height: 400px;
+    }
+
+    .item-6{
+        font-size: 50px;
+    }
+
+    .about>h2{
+        font-size: 50px;
+    }
+
+    .about-2>h1{
+        font-size: 50px;
     }
 
     .sub-about-1>img{
@@ -87,14 +107,26 @@
         margin: 0px 100px;
     }
 
+    .contact>h1{
+        font-size: 50px;
+    }
+
     .sub-contact{
         margin: 40px 100px;
+    }
+
+    .contact-1>h1{
+        font-size: 50px;
     }
 
     .sub-contact-1{
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .footer>h2{
+        font-size: 50px;
     }
 
     .main{
@@ -111,6 +143,10 @@
 
     .footer-2{
         padding: 20px;
+    }
+
+    .footer-2>h1{
+        font-size: 50px;
     }
 
     .sub-footer-8{
