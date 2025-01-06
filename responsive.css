@@ -1,4 +1,4 @@
-@media screen and (min-width : 1121px) and (max-width : 1400px) {
+@media screen and (min-width : 1120px) and (max-width : 1400px) {
 
     .header, .home, .home-4, .about-1, .about-2, .contact-1, .footer-1{
         margin: 40px;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width : 951px) and (max-width : 1120px) {
+@media screen and (min-width : 950px) and (max-width : 1120px) {
     .header, .home, .home-4, .about-1, .about-2, .contact-1, .footer-1{
         margin: 40px 60px;
     }
@@ -118,7 +118,7 @@
     }
 }
 
-@media  screen and (min-width: 701px) and (max-width : 951px) {
+@media  screen and (min-width: 700px) and (max-width : 950px) {
     .header, .home, .home-4, .about-1, .about-2, .contact-1, .footer-1{
         margin: 40px 60px;
     }
